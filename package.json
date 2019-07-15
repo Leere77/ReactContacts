@@ -2,9 +2,9 @@
   "name": "reacttrain",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://leere77.github.io/ReactContacts/dist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --host 0.0.0.0 --mode=development --devtool=source-map",
     "start": "webpack --mode=production"
   },
