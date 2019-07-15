@@ -19,7 +19,7 @@ const reducer = (state = {}, action) => (
 const store = createStore(reducer)
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={'https://leere77.github.io/ReactContacts/dist'}>
         <Provider store={store}>
             <App/>
         </Provider>

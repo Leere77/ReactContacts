@@ -25,7 +25,7 @@ class App extends React.Component {
                 <Switch>
                     <Route path="/list/:id" component={SecWrapper(ListItemPage)}/>
                     <Route exact path="/list" component={SecWrapper(List)}/>
-                    <Route exact path="/index.html" component={EnterSection}/>
+                    <Route exact path="/" component={EnterSection}/>
                 </Switch>
             </div>
         )
