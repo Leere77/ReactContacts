@@ -5,7 +5,7 @@ import List from '../List/List'
 import ListItemPage from '../List/ListItemPage'
 import SecWrapper from '../SecWrapper'
 
-const github = 'https://leere77.github.io/ReactContacts/dist'
+const github = '/ReactContacts/dist'
 
 const EnterSection = () => {
     return(
