@@ -19,7 +19,7 @@ const reducer = (state = {}, action) => (
 const store = createStore(reducer)
 
 ReactDOM.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
         <Provider store={store}>
             <App/>
         </Provider>
