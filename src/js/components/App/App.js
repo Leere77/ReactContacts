@@ -23,9 +23,9 @@ class App extends React.Component {
         return(
             <div className="mainContainer">
                 <Switch>
-                    <Route path={process.env.PUBLIC_URL + "/list/:id"} component={SecWrapper(ListItemPage)}/>
-                    <Route exact path={process.env.PUBLIC_URL + "/list"} component={SecWrapper(List)}/>
-                    <Route exact path={process.env.PUBLIC_URL + "/"} component={EnterSection}/>
+                    <Route path={process.env.homepage + "/list/:id"} component={SecWrapper(ListItemPage)}/>
+                    <Route exact path={process.env.homepage + "/list"} component={SecWrapper(List)}/>
+                    <Route exact path={process.env.homepage + "/"} component={EnterSection}/>
                 </Switch>
             </div>
         )
