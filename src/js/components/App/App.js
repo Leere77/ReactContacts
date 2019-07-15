@@ -5,6 +5,8 @@ import List from '../List/List'
 import ListItemPage from '../List/ListItemPage'
 import SecWrapper from '../SecWrapper'
 
+const github = 'https://leere77.github.io/ReactContacts/dist'
+
 const EnterSection = () => {
     return(
         <div className="enterSection">
@@ -23,9 +25,9 @@ class App extends React.Component {
         return(
             <div className="mainContainer">
                 <Switch>
-                    <Route path={process.env.homepage + "/list/:id"} component={SecWrapper(ListItemPage)}/>
-                    <Route exact path={process.env.homepage + "/list"} component={SecWrapper(List)}/>
-                    <Route exact path={process.env.homepage + "/"} component={EnterSection}/>
+                    <Route path={github + "/list/:id"} component={SecWrapper(ListItemPage)}/>
+                    <Route exact path={github + "/list"} component={SecWrapper(List)}/>
+                    <Route exact path={github + "/"} component={EnterSection}/>
                 </Switch>
             </div>
         )
