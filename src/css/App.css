@@ -34,20 +34,6 @@ li {
     margin-top: 1rem;
 }
 
-/* // .form {
-//     position: absolute;
-//     width: inherit;
-//     margin-top: 1rem;
-//     transition-property: max-height;
-//     transition-duration: 0.3s;
-//     max-height: 0;
-//     overflow: hidden;
-// } */
-
-.form--active {
-    max-height: 100%;
-}
-
 .form__input {
     font-family: inherit;
     outline: none;
